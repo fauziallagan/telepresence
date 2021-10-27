@@ -20215,7 +20215,7 @@ section {
 }
 
 .page-header-ui {
-  background-image: url('/assets/img/oredo.jpg');
+  background-image: url('../assets/img/oredo.jpg');
 
   background-size: cover;
   background-repeat: no-repeat;
