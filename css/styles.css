@@ -16,7 +16,9 @@
   text-align:center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.text{
+  text-align: justify;
+}
 button a{
   text-decoration-line: none;
 }
@@ -62,6 +64,9 @@ button a{
 .page-header-ui:hover{
   backface-visibility: hidden;
   background-color:rgba(133, 119, 119, 0.37);
+}
+.show{
+  color:white;
 }
 
 /* END */
@@ -711,6 +716,10 @@ progress {
 
 .img-fluid {
   max-width: 100%;
+  height: auto;
+}
+.img-fluid1{
+  max-width: 50%;
   height: auto;
 }
 
@@ -5901,6 +5910,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .page-header-ui{
     background-size: contain;
+    padding-bottom: 2rem;
   }
   .navbar-expand-sm {
     flex-wrap: nowrap;
@@ -6058,6 +6068,10 @@ textarea.form-control-lg {
     flex-grow: 0;
     padding: 0;
     overflow-y: visible;
+  }
+  .page-header-ui{
+    padding-top: auto;
+    padding-bottom: auto
   }
 }
 @media (min-width: 1200px) {
@@ -6260,10 +6274,12 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  /* color: rgba(252, 252, 252, 0.945); */
+  color:white
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(238, 238, 238, 0.87); */
+  color:white;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -10522,7 +10538,7 @@ textarea.form-control-lg {
 
 .py-10 {
   padding-top: 6rem !important;
-  padding-bottom: 6rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .py-15 {
@@ -11188,7 +11204,11 @@ textarea.form-control-lg {
 }
 
 .bg-transparent {
-  --bs-bg-opacity: 1;
+  --bs-bg-opacity: 3;
+  background-color: rgba(117, 112, 112, 0.363) !important;
+}
+.bg-transparent-new{
+  --bs-bg-opacity: 3;
   background-color: transparent !important;
 }
 
@@ -18805,6 +18825,7 @@ body {
 
 .icon-list-social {
   display: flex;
+  margin-top: 10%;
 }
 .icon-list-social .icon-list-social-link {
   font-size: 1.25rem;
@@ -20215,16 +20236,16 @@ section {
 }
 
 .page-header-ui {
-  background-image: url('../assets/img/oredo.jpg');
-
+  background-image: url('../assets/img/asset-new/depan.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   padding-top: 2rem;
-  padding-bottom: 50rem !important;
+  padding-bottom: 30% !important;
 }
 .page-header-ui .page-header-ui-content .page-header-ui-title {
   font-size: 2.5rem;
+  padding-top:40%;
 }
 .page-header-ui .page-header-ui-content .page-header-ui-text {
   font-size: 1.15rem;
@@ -20245,6 +20266,7 @@ section {
 }
 .page-header-ui-light .page-header-ui-text {
   color: #69707a;
+  padding-right: 36%;
 }
 .page-header-ui-light .page-header-ui-text a {
   color: #4a515b;
